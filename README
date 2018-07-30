@@ -1,0 +1,14 @@
+Needs libraries:
+  o spixels  (make install in the spixels library)
+  o wiringpi-mpr121 (make install for that as well)
+  o libusb-dev (apt-get install)
+
+
+Just compile with
+
+ make
+
+Then run with
+  sudo ./noodly
+
+If the code is started in /etc/rc.local, it starts at startup.
